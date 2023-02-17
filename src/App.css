@@ -1,38 +1,161 @@
-.App {
+.bg-container {
+  border: 2px solid black;
+  padding: 25px;
+}
+
+.heading {
   text-align: center;
-}
+  font-family: "Roboto";
+  font-weight: bold;
+  color: blue;
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.address-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+
+}
+.paragraph {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(17, 12, 12);
+  padding: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.mail-paragraph {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+  margin-left: 5px;
+  text-align: center;
+  padding: 0px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin-paragraph {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+  margin-left: 5px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
 }
+
+.side-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: px;
+  margin-bottom: 0px;
+}
+
+.hr-line {
+  background-color: black;
+  height: 1px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.text-paragraph {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 0px;
+  
+  
+
+}
+
+.bottom-text-paragraph {
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+
+.course-title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: 0px;
+}
+
+.course-name {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 18px;
+  color: black;
+  padding-left: 12px;
+}
+
+.project-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.project-link {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 17px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.project-description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  margin-top: 8px;
+}
+
+.unordered-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-item {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+
+
+
+
+
+
+
