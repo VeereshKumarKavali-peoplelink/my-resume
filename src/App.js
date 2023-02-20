@@ -9,14 +9,20 @@ const Resume = () =>{
     <div class="header-container">
         <header className="resume-header">Resume Builder</header>
     </div>
-    <div className="bg-container">
+    <div className="sidebar-bg-container">
+      <div className="sidebar">
+        <a href="#educationSection" style={{textDecoration: "none"}}><h1>Education</h1></a>
+        <a href="#skillSection" style={{textDecoration: "none"}}><h1>Skills</h1></a>
+        <a href="#projectsSection" style={{textDecoration: "none"}}><h1>Projects</h1></a>
+      </div>
+      <div className="bg-container">
         <h1 className="heading">Veeresh Kumar Kavali</h1>
         <div className="address-container">
           <p className="paragraph">Guntakal,Andhra Pradesh, 515801 |</p>
           <a href="https://Veereshkumar956@gmail.com/#inbox?compose=new" target="_self"><p className="mail-paragraph">Veereshkumar956@gmail.com</p></a>
         </div>
         <a href="https://www.linkedin.com/in/veereshkumar18" target="_self"><p className="linkedin-paragraph">https://www.linkedin.com/in/veereshkumar18</p></a>
-        <h1 className="side-heading">EDUCATION</h1>
+        <h1 id="educationSection" className="side-heading">EDUCATION</h1>
         <hr className="hr-line"/>
         <div className="text-container">
           <p className='text-paragraph'>NxtWave Disruptive Technologies</p>
@@ -43,14 +49,14 @@ const Resume = () =>{
         </div>
         <p className="bottom-text-paragraph">Secondary School Of Certificate (9.7 CGPA)</p>
 
-        <h1 className="side-heading">SKILLS</h1>
+        <h1 id="skillSection" className="side-heading">SKILLS</h1>
         <hr className="hr-line"/>
         <p className="course-title">Frontend:<span className="course-name">HTML, CSS, Bootstrap, JavaScript, React.js</span></p>
         <p className="course-title">Backend:<span className="course-name">Python, Express, Node.js</span></p>
         <p className="course-title">Databases:<span className="course-name">SQLite</span></p>
 
 
-        <h1 className="side-heading">PROJECTS</h1>
+        <h1 id="projectsSection" className="side-heading">PROJECTS</h1>
         <hr className="hr-line"/>
 
         <div>
@@ -107,10 +113,11 @@ const Resume = () =>{
         </div>
 
     
+      </div>
     </div>
 
     <div className="footer-element">
-          <BiCopyright style={{color: "blue"}} />
+          <BiCopyright style={{color: "white"}} />
           <p className="zoho-mail">veereshk@peoplelinkvc.com</p>
     </div>
     </div>
