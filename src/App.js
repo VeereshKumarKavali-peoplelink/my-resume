@@ -1,7 +1,14 @@
 import React from 'react';
 import './App.css';
+
+import { BiCopyright } from 'react-icons/bi';
 const Resume = () =>{
   return (
+   
+  <div class="container">
+    <div class="header-container">
+        <header className="resume-header">Resume Builder</header>
+    </div>
     <div className="bg-container">
         <h1 className="heading">Veeresh Kumar Kavali</h1>
         <div className="address-container">
@@ -99,8 +106,16 @@ const Resume = () =>{
           <p className="course-title">Technologies used:<span className="course-name">React JS, Routing, REST API Calls, CSS, Bootstrap</span></p>
         </div>
 
-
+    
     </div>
+
+    <div className="footer-element">
+          <BiCopyright style={{color: "blue"}} />
+          <p className="zoho-mail">veereshk@peoplelinkvc.com</p>
+    </div>
+    </div>
+  
+
   )
 
 }

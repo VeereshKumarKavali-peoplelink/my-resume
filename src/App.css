@@ -1,6 +1,48 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .bg-container {
   border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
   padding: 25px;
+  background-color: white;
+  align-self: center;
+  
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  align-self: stretch;
+
+
+}
+.resume-header {
+  font-weight: bold;
+  font-size: 16px;
+  color: blue;
+  padding: 12px;
+  
+}
+
+@media screen and (min-width: 768px){
+  .bg-container {
+    width: 60%;
+    max-width: 1120px;
+  
+  }
 }
 
 .heading {
@@ -153,8 +195,27 @@
 }
 
 
+.footer-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  align-self: stretch;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  
+}
 
 
+.zoho-mail {
+  padding-left: 5px;
+  padding-bottom: 6px;
+  color: blue;
+
+}
 
 
 
