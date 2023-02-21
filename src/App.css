@@ -14,14 +14,14 @@
   align-self: center;
   flex-grow: 1;
   overflow: auto;
-  margin-left: 180px;
+  margin-left: 190px;
 }
 
 
 .header-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   background-color:  #1aff1a;
   position: fixed;
   width: 100%;
@@ -34,7 +34,10 @@
   font-size: 16px;
   color: white;
   padding: 12px;
-  
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 @media screen and (max-width: 576px){
@@ -239,7 +242,7 @@
   flex-shrink: 0;
   left: 0;
   background-color: aqua;
-  width: 140px;
+  width: 160px;
   padding: 20px;
   font-family:'Times New Roman', Times, serif;
   position: fixed;
@@ -252,4 +255,95 @@
   .sidebar {
     display: none;
   }
+}
+
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .display-styling {
+    display: none;
+  }
+
+}
+
+.icon-style {
+  font-size: 27px;
+}
+
+.projects-icon {
+  font-size: 22px;
+}
+
+.logo {
+  width: 52px;
+}
+
+.linkedin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.icon {
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 4px;
+}
+
+.home-icon {
+  margin-right: 2px;
+  font-size: 20px;
+}
+
+.phone-number-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.phone-number {
+  color: blue;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.phone-number-heading{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.mail-icon {
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 4px;
+  font-size: 18px;
 }

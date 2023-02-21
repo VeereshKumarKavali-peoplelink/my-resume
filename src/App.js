@@ -2,26 +2,64 @@ import React from 'react';
 import './App.css';
 
 import { BiCopyright } from 'react-icons/bi';
+
+import {MdSchool} from 'react-icons/md';
+
+import {MdComputer} from 'react-icons/md';
+
+import {GrProjects} from 'react-icons/gr';
+
+import {BsLinkedin} from 'react-icons/bs';
+
+import {MdEmail} from 'react-icons/md';
+import {FaHome} from 'react-icons/fa';
+import {BsTelephoneFill} from 'react-icons/bs';
+
 const Resume = () =>{
   return (
    
   <div class="container">
     <div class="header-container">
+      <img src="https://i0.wp.com/mycreativeresumes.com/wp-content/uploads/2022/09/logo_resume.png?fit=250%2C228&ssl=1" className="logo" alt="logo"/>
         <header className="resume-header">Resume Builder</header>
     </div>
     <div className="sidebar-bg-container">
       <div className="sidebar">
-        <a href="#educationSection" style={{textDecoration: "none"}}><h1>Education</h1></a>
-        <a href="#skillSection" style={{textDecoration: "none"}}><h1>Skills</h1></a>
-        <a href="#projectsSection" style={{textDecoration: "none"}}><h1>Projects</h1></a>
+        <div className="education-container">
+          <a href="#educationSection" style={{textDecoration: "none"}}><MdSchool className="icon-style"/></a>
+          <a href="#educationSection" style={{textDecoration: "none", marginLeft: '8px'}} className="display-styling"><h2>Education</h2></a>
+        </div>
+
+
+        <div className='skills-container'>
+        <a href="#skillSection" style={{textDecoration: "none"}}><MdComputer className="icon-style"/></a>
+        <a href="#skillSection" style={{textDecoration: "none", marginLeft: '8px'}} className="display-styling"><h2>Skills</h2></a>
+        </div>
+
+        <div className="projects-container">
+        <a href="#projectsSection" style={{textDecoration: "none"}}><GrProjects className="projects-icon"/></a>
+        <a href="#projectsSection" style={{textDecoration: "none", marginLeft: '8px'}} className="display-styling"><h2>Projects</h2></a>
+
+        </div>
+    
       </div>
       <div className="bg-container">
         <h1 className="heading">Veeresh Kumar Kavali</h1>
         <div className="address-container">
+          <FaHome className="home-icon"/>
           <p className="paragraph">Guntakal,Andhra Pradesh, 515801 |</p>
+          <MdEmail className='mail-icon'/>
           <a href="https://Veereshkumar956@gmail.com/#inbox?compose=new" target="_self"><p className="mail-paragraph">Veereshkumar956@gmail.com</p></a>
         </div>
+        <div className='linkedin-container'>
+        <BsLinkedin className="icon"/>
         <a href="https://www.linkedin.com/in/veereshkumar18" target="_self"><p className="linkedin-paragraph">https://www.linkedin.com/in/veereshkumar18</p></a>
+        </div>
+
+        <div className="phone-number-container">
+        <BsTelephoneFill className='icon'/>
+        <p className="phone-number-heading">Phone No: <span className="phone-number">99899379112</span></p>
+        </div>
         <h1 id="educationSection" className="side-heading">EDUCATION</h1>
         <hr className="hr-line"/>
         <div className="text-container">
