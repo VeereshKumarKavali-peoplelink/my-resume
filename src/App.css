@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color:  #1aff1a;
+  background-color:  #30b433;
   position: fixed;
   width: 100%;
   align-self: stretch;
@@ -212,7 +212,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color:  #1aff1a;
+  background-color:  #30b433;
   align-self: stretch;
   width: 100%;
   position: fixed;
@@ -247,7 +247,7 @@
   font-family:'Times New Roman', Times, serif;
   position: fixed;
   height: 100%;
-  margin-top: 45px;
+  margin-top: 46px;
   
 }
 
@@ -313,8 +313,9 @@
 }
 
 .home-icon {
-  margin-right: 2px;
+  margin-right: 3px;
   font-size: 20px;
+  margin-bottom: 3px;
 }
 
 .phone-number-container {

@@ -47,7 +47,7 @@ const Resume = () =>{
         <h1 className="heading">Veeresh Kumar Kavali</h1>
         <div className="address-container">
           <FaHome className="home-icon"/>
-          <p className="paragraph">Guntakal,Andhra Pradesh, 515801 |</p>
+          <p className="paragraph">Guntakal, Andhra Pradesh, 515801 |</p>
           <MdEmail className='mail-icon'/>
           <a href="https://Veereshkumar956@gmail.com/#inbox?compose=new" target="_self"><p className="mail-paragraph">Veereshkumar956@gmail.com</p></a>
         </div>
