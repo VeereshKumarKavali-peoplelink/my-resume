@@ -8,6 +8,8 @@ import {MdSchool} from 'react-icons/md';
 import {MdComputer} from 'react-icons/md';
 
 import {GrProjects} from 'react-icons/gr';
+ 
+import {GrAchievement} from "react-icons/gr";
 
 import {BsLinkedin} from 'react-icons/bs';
 
@@ -20,7 +22,7 @@ const Resume = () =>{
    
   <div class="container">
     <div class="header-container">
-      <img src="https://i0.wp.com/mycreativeresumes.com/wp-content/uploads/2022/09/logo_resume.png?fit=250%2C228&ssl=1" className="logo" alt="logo"/>
+      <img src="https://i.pinimg.com/originals/44/ed/39/44ed391c607064ab6e041f1f8d0f435e.jpg" className="logo" alt="logo"/>
         <header className="resume-header">Resume Builder</header>
     </div>
     <div className="sidebar-bg-container">
@@ -39,11 +41,19 @@ const Resume = () =>{
         <div className="projects-container">
         <a href="#projectsSection" style={{textDecoration: "none"}}><GrProjects className="projects-icon"/></a>
         <a href="#projectsSection" style={{textDecoration: "none", marginLeft: '8px'}} className="display-styling"><h2>Projects</h2></a>
+        </div>
 
+        <div className="achievements-container">
+          <a href="#achievementsSection" style={{textDecoration: "none", color: "indigo"}}><GrAchievement className='achievements-icon'/></a>
+          <a href="#achievementsSection" style={{textDecoration: "none", marginLeft: '8px'}} className="display-styling"><h2>Achievements</h2></a>
         </div>
     
       </div>
       <div className="bg-container">
+
+      <div className='details-image-container'>
+      <div className='details-container'>
+
         <h1 className="heading">Veeresh Kumar Kavali</h1>
         <div className="address-container">
           <FaHome className="home-icon"/>
@@ -52,14 +62,20 @@ const Resume = () =>{
           <a href="https://Veereshkumar956@gmail.com/#inbox?compose=new" target="_self"><p className="mail-paragraph">Veereshkumar956@gmail.com</p></a>
         </div>
         <div className='linkedin-container'>
-        <BsLinkedin className="icon"/>
-        <a href="https://www.linkedin.com/in/veereshkumar18" target="_self"><p className="linkedin-paragraph">https://www.linkedin.com/in/veereshkumar18</p></a>
+          <BsLinkedin className="icon"/>
+          <a href="https://www.linkedin.com/in/veereshkumar18" target="_self"><p className="linkedin-paragraph">https://www.linkedin.com/in/veereshkumar18</p></a>
         </div>
 
         <div className="phone-number-container">
-        <BsTelephoneFill className='icon'/>
-        <p className="phone-number-heading">Phone No: <span className="phone-number">99899379112</span></p>
+          <BsTelephoneFill className='icon'/>
+          <p className="phone-number-heading">Phone No: <span className="phone-number">99899379112</span></p>
         </div>
+
+      </div>
+
+      <img src="https://res.cloudinary.com/dxgomsuxu/image/upload/v1677426811/Veeresh_Pic_In_White_bg_sh3yj6.jpg" alt="veeresh pic" className="veeresh-pic"/>
+
+      </div>
         <h1 id="educationSection" className="side-heading">EDUCATION</h1>
         <hr className="hr-line"/>
         <div className="text-container">
@@ -123,7 +139,7 @@ const Resume = () =>{
               <li className="list-item">Fetched countries list from server asynchronously using fetch GET HTTP API call and implemented
                   responsiveness using Bootstrap grid system and CSS box model
               </li>
-              <li className='list-item'>- Implemented local search functionality by using input element, JavaScript event listeners & filtered
+              <li className='list-item'>Implemented local search functionality by using input element, JavaScript event listeners & filtered
                   countries using Array filter method.
               </li>
           </ul>
@@ -150,6 +166,18 @@ const Resume = () =>{
           <p className="course-title">Technologies used:<span className="course-name">React JS, Routing, REST API Calls, CSS, Bootstrap</span></p>
         </div>
 
+        <h1 id="achievementsSection" className="side-heading">ACHIEVEMENTS</h1>
+        <hr className="hr-line"/>
+
+        <ul className='unordered-list'>
+              <li className="list-item">Participated in CCBP 50days coding challenge and secured a certificate</li>
+              <li className='list-item'>Secured 1st place with Elite + Gold certificate by scoring 94% in NPTEL Plastic Waste Management
+                online course among 16,000+ participants 
+              </li>
+              <li className='list-item'>Participated in One Day National Workshop On ‘Precast Construction Technology(PCT)’ conducted in
+                S.V university, Tirupati and secured a certificate 
+              </li>
+        </ul>
     
       </div>
     </div>
