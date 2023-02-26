@@ -68,7 +68,7 @@ const Resume = () =>{
 
         <div className="phone-number-container">
           <BsTelephoneFill className='icon'/>
-          <p className="phone-number-heading">Phone No: <span className="phone-number">99899379112</span></p>
+          <p className="phone-number-heading">Phone No: <span className="phone-number">9989379112</span></p>
         </div>
 
       </div>
